@@ -1,0 +1,6 @@
+#Create square dictionary (1–10)
+
+dict_1={ i: i**2 for i in range(1,11)}
+
+print(dict_1)
+
