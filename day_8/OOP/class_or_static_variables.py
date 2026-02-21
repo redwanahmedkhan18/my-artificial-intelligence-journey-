@@ -1,5 +1,5 @@
 class Player:
-    team_run = 0   # shared by all players
+    team_run = 0   
 
     def __init__(self, name):
         self.name = name
@@ -44,10 +44,10 @@ class Player:
 
 
 Player1=Player("Adnan")
-Player1.hit_one()
+Player1.six_run()
 Player1.no_ball()
 Player1.wide_ball()
-Player1.bye()
+Player1.six_run()
 Player1.two_run()
 Player1.three_run()
 Player1.four_run()
@@ -60,17 +60,18 @@ Player1.six_run()
 print(f"{Player1.name} run: {Player1.run}")
 
 Player2=Player("Rafsan")
-Player2.hit_one()
 Player2.no_ball()
-Player2.wide_ball()
-Player2.bye()
-Player2.two_run()
-Player2.three_run()
+Player2.four_run()
+Player2.no_ball()
+Player2.six_run()
 Player2.four_run()
 Player2.six_run()
-Player2.hit_one()
 Player2.no_ball()
+Player2.three_run()
+Player2.three_run()
 Player2.six_run()
-
+Player2.six_run()
+Player2.six_run()
+Player2.six_run()
 print(f"{Player2.name} run: {Player2.run}")
 print(f"Team run: {Player.team_run}")
